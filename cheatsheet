@@ -1,0 +1,50 @@
+git config
+    - manage git configuration
+git help <command>
+    - get help for the command
+git init
+    - intialize a git repository
+git status [-s]
+    - get the current state of the working copy and the staging area [short]
+git add [-p]
+    - track new changes [only some of the changes in a file]
+git rm [--cached]
+    - delete a file [only delete it from git, not from the filesystem]
+git mv
+    - rename a file
+git commit [--amend]
+    - save the current staging area to a new commit [edit the last commit]
+git log
+    - get the history of commits
+git diff [--cached]
+    - show the differences between two state [only show the changes in staging area]
+git reset [--hard]
+    - rollback current git branch to an old state [and the files too]
+git revert
+    - revert the changes from a commit
+git checkout [-- files]
+    - move working area to another state/branch/tag/commit [only those files]
+git branch
+    - create a new branch
+git branch -d|-D
+    - delete a branch if it has been merged|even if it hasn't been merged
+git checkout -b <branch>
+    - same as "git branch <branch>; git checkout <branch>"
+git merge
+    - merge a branch/tag/commit in the current branch
+git tag
+    - mark a commit with a tag (for releasing)
+git clone
+    - get a copy of a remote git repository
+git remote add
+    - add a new remote (alias to a remote repository)
+git pull [--rebase]
+    - get the changes from a remote repository [and automatically rebase local commits]
+git push [repository] [branch]
+    - publish the changes to a remote repository
+git push --tags
+    - publish local tags to a remote repository
+git rebase
+    - rebase local commits on top of another branch/tag/commit
+git rebase -i
+    - rearrange local commits as we want interactively
